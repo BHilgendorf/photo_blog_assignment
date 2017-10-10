@@ -1,0 +1,117 @@
+/*=================================================================*/
+/* Clearfix Styles  */
+/*=================================================================*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+/*=================================================================*/
+/* Main Styles  */
+/*=================================================================*/
+
+body {
+  font: 18px "Roboto Condensed", sans-serif;
+  color: #3e606f ;
+  background: linear-gradient(to bottom, #d2dbbd, #fcfff5);
+  background-repeat: no-repeat;
+}
+
+/*=================================================================*/
+/* Header  Styles  */
+/*=================================================================*/
+
+header {
+  width: 920px;
+  padding: 20px 20px 0 20px;
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 45px 0 15px 115px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #193441;
+  background: url(assets/images/logo.png) 0 0 no-repeat;
+  float: left;
+}
+
+nav {
+  padding: 75px 0 0 0;
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+}
+
+a {
+  display: block;
+  padding: 15px 40px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background: #fcfff5;
+  text-decoration: none;
+  color: #91aa9d;
+}
+
+.active {
+  background: #91aa9d;
+  color: #fcfff5;
+}
+
+/*=================================================================*/
+/* Primary Content Styles  */
+/*=================================================================*/
+
+section {
+  height: 1082px;
+  width: 900px;
+  padding: 30px 30px 80px 30px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+section header {
+  padding: 0px;
+}
+
+h2 {
+  margin: 35px 0 25px 0;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+section p {
+  margin-bottom: 20px;
+}
+
+article figure {
+  margin: 0 0 0 40px;
+  float: right;
+}
+
+article {
+  overflow: hidden;
+}
+
+/*=================================================================*/
+/* Footer Content Styles  */
+/*=================================================================*/
+
+footer {
+  border-top: 5px solid #bebebd;
+  width: 960px;
+  margin: 0 auto;
+}
+
+footer p {
+  margin: 10px 0 38px 0;
+  font-size: 14px;
+}
